@@ -1,0 +1,85 @@
+One-shot test:
+Which of the following statements about binary trees is true?
+- Binary trees can include Cliques
+- A binary tree node can reference itself
+- Binary trees are traversable
+---
+['simple_language
+---
+explanation: The question consists of a clear, brief and precise description of the statements about binary trees and asks for the true statement among them. It avoids all kinds of bureaucratic, technocratic or scientific language, and uses simple language without slang. It also targets the intended audience with basic knowledge in regards to binary trees and algorithms. 
+category: true',
+'simple_and_positive_questions
+---
+explanation: The question presents three statements about binary trees and asks which one is true. The statements are clear and precise, avoiding negative polarity and any ambiguity. The question also addresses the target audience of individuals knowledgeable about binary trees and uses an appropriate language level. Overall, the question fulfills the criterias and can be considered true.
+category: true',
+'insinuation_free
+---
+explanation: The question is clear, specific, and objective. It does not contain any insinuations or suggestive language, and it provides three answer options to choose from. 
+category: true',
+'clear_temporal_reference
+---
+explanation: The question adheres to the given criteria. It presents three statements about binary trees and asks the respondent to identify the true one.
+category: true',
+'concise_categories
+---
+explanation: The answer categories are precise and disjunctive. There are no overlapping categories and the possible solutions to the question are included in the answer categories.
+category: true',
+'explanation_of_the_unknown
+---
+explanation: The question is short, clear and easy to understand. It provides three statements about binary trees without using technical language or including unknown terms.
+category: true',
+'non_judgemental
+---
+explanation: The question is objective and fact-based. It does not include any vocabulary that is associated with strong emotions or opinions. It consists of a list of options that can be evaluated without being influenced by any personal or emotional attitudes.
+category: true',
+'comparison_with_valid_scale
+---
+explanation: The question is concise and only contains a single clear objective criteria to evaluate the answers on. It is clear what is meant by binary trees, and the statements being compared to each other are on the same scale.
+category: true']
+Zero-shot test:
+Which of the following statements about binary trees is true?
+- Binary trees can include Cliques
+- A binary tree node can reference itself
+- Binary trees are traversable
+---
+['simple_language
+---
+explanation: The question asks for the true statement about binary trees among the options given. 
+Option 1 ("Binary trees can include Cliques") is false because cliques are complete subgraphs where all nodes are connected to each other, and binary trees are characterized by at most 2 children per node, making it impossible to have cliques in them.
+Option 2 ("A binary tree node can reference itself") is also false because a binary tree is a tree data structure and by definition, there cannot be a cycle in a tree.
+Option 3 ("Binary trees are traversable") is true because we can traverse a binary tree in different ways such as Inorder, Preorder, and Postorder traversals.
+Therefore, the true statement about binary trees is that they are traversable.
+category: true',
+'simple_and_positive_questions
+---
+explanation: The question provides three statements about binary trees and asks which one of them is true. The first statement claims that binary trees can include Cliques, which is false because Cliques are not part of a binary tree structure. The second statement says that a binary tree node can reference itself, which is also false because a binary tree is a directed acyclic graph (DAG), so a node cannot reference itself directly. The third statement claims that binary trees are traversable, which is true because a binary tree can be traversed in different orders (pre-order, in-order, post-order). Therefore, only one statement is true, making this question unambiguous and one-dimensional.
+category: true', "insinuation_free
+---
+explanation: The question provides three statement options about binary trees and asks which one is true. It does not contain any insinuations or suggestive language. The question is clear and straightforward, and does not restrict the respondent's freedom to answer. As such, the question is factual and can be evaluated based on its accuracy. 
+category: true", 'clear_temporal_reference
+---
+explanation: The question is asking for a factual statement about binary trees, and gives three options to choose from. None of the options provided mention any specific dates or timespans, so the temporal reference is not relevant for this evaluation.
+category: false',
+'concise_categories
+---
+explanation: The question provides three statements and asks which one is true about Binary trees. 
+- "Binary trees can include Cliques" is false as Cliques are not allowed in Binary trees.
+- "A binary tree node can reference itself" is also false as self-referencing nodes violate the definition of a Binary tree.
+- "Binary trees are traversable" is true as Binary trees can be traversed in different ways, such as Inorder, Preorder, and Postorder traversals.
+
+category: true',
+'explanation_of_the_unknown
+---
+explanation: The question is testing the knowledge about binary trees, a data structure in computer science. A binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. Cliques is not a term related to binary trees, and hence option A is false. Self-referencing is not possible in a binary tree, and hence option B is also false. Binary trees are traversable, meaning that one can visit all the elements in the tree, and hence option C is true. 
+category: true',
+'non_judgemental
+---
+explanation: Based on the given statements, it is possible to evaluate whether or not they are true or false without relying on any strong opinions or emotions. The statements are focused on factual information about binary trees, which can be objectively verified.
+category: true',
+'comparison_with_valid_scale
+---
+Explanation: 
+The question asks which of the statements about binary trees is true and provides three options for the answer. The statements are all related to binary trees, which are a well-defined and consistent concept in computer science. Therefore, there is no ambiguity in the concepts being compared and they are all on the same scale. 
+
+Category: 
+true']
